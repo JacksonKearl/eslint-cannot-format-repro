@@ -1,0 +1,16 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"files.exclude": {
+		"**/*.js": {
+			"when": "$(basename).ts"
+		},
+		"**/*.js.map": {
+			"when": "$(basename)"
+		}
+	}
+}
